@@ -1,6 +1,6 @@
 # https://github.com/mkachergus/Lab11-AF-MK
 # Partner 1: Alejandro Fernandez
-# Partner 2: Your partner's name
+# Partner 2: Michael Kachergus
 import math
 # First example
 def square_root(a):
