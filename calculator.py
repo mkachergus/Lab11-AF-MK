@@ -1,9 +1,6 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
-
-One function per operation, in order.
-"""
+# https://github.com/mkachergus/Lab11-AF-MK
+# Partner 1: Alejandro Fernandez
+# Partner 2: Your partner's name
 import math
 # First example
 def square_root(a):
@@ -15,7 +12,7 @@ def hypotenuse(a, b):
     return math.hypot(a, b)
 def add(a, b): 
     return a+b
-def sub(a, b):
+def subtract(a, b):
     return a-b
 def mul(a, b):
     return a*b
@@ -23,7 +20,7 @@ def div(a, b):
     if a==0:
         raise ZeroDivisionError
     return b/a
-def log(a, b):
+def logarithm(a, b):
     if a<=0 or b<=0 or a==1:
         raise ValueError
     return math.log(b,a)
