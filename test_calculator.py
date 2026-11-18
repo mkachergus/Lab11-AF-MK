@@ -41,6 +41,5 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             calculator.logarithm(-2, 8)
 
-# Do not touch this
 if __name__ == "__main__":
     unittest.main()
